@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.2">
+  <diagram name="Seite-1" id="neD586wzru6x89Y86ijy">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Subnet 192.168.0.0/24" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="219" y="8" width="233" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="30 IoT Devices" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="2">
+          <mxGeometry x="43" y="46" width="163" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Fritzbox 7590" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="502" y="46" width="157" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Fritz Repeater" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="210" width="163" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Fritz Repeater" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="221" y="210" width="163" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Fritz 7590AX" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="433" y="210" width="150" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Asus AX53" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="633" y="210" width="130" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Subnet 192.168.4.0/24" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="857" y="337" width="224" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="3 Computers" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="704" y="464" width="150" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="2 Printers" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="904" y="464" width="129" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Router AX3600" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="887" y="210" width="163" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Repeater" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.79;entryX=0.5;entryY=0;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="89" y="174" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Repeater" style="curved=1;startArrow=none;endArrow=block;exitX=0.02;exitY=0.99;entryX=0.5;entryY=0;" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="174" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Device" style="curved=1;startArrow=none;endArrow=block;exitX=0.38;exitY=0.99;entryX=0.5;entryY=0;" edge="1" parent="1" source="4" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="508" y="174" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Device" style="curved=1;startArrow=none;endArrow=block;exitX=0.7;exitY=0.99;entryX=0.5;entryY=0;" edge="1" parent="1" source="4" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="698" y="174" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Subnet" style="curved=1;startArrow=none;endArrow=block;exitX=0.92;exitY=0.99;entryX=0.23;entryY=0;" edge="1" parent="1" source="4" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="825" y="174" />
+              <mxPoint x="825" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="Device" style="curved=1;startArrow=none;endArrow=block;exitX=0.14;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="9" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="779" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Device" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="9" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="Connected to" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.87;entryX=0.5;entryY=0;" edge="1" parent="1" source="4" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="969" y="174" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="Provides" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="12" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
